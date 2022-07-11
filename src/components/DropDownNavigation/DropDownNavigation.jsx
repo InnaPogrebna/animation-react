@@ -23,22 +23,22 @@ export default function DropDownNavigation() {
               <div className="dropdown-wrapper">
                 <div className="dropdown-menu">
                   <div className="dropdown-menu-item" onClick={handleClick}>
-                    <NavLink to="/" className="dropdown-menu-item-link">
+                    <NavLink to="/animation-react" className="dropdown-menu-item-link">
                       Home
                     </NavLink>
                   </div>
                   <div className="dropdown-menu-item" onClick={handleClick}>
-                    <NavLink to="/what" className="dropdown-menu-item-link">
+                    <NavLink to="/animation-react/what" className="dropdown-menu-item-link">
                       What
                     </NavLink>
                   </div>
                   <div className="dropdown-menu-item" onClick={handleClick}>
-                    <NavLink to="/what" className="dropdown-menu-item-link">
+                    <NavLink to="/animation-react/what" className="dropdown-menu-item-link">
                       Who
                     </NavLink>
                   </div>
                   <div className="dropdown-menu-item" onClick={handleClick}>
-                    <NavLink to="/what" className="dropdown-menu-item-link">
+                    <NavLink to="/animation-react/what" className="dropdown-menu-item-link">
                       Where
                     </NavLink>
                   </div>

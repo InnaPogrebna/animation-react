@@ -5,9 +5,9 @@ import './ComeBack.scss';
 export default function ComeBack() {
   return (
     <div>
-      <NavLink to="/" className="comeBack-link">
+      <NavLink to="/animation-react" className="comeBack-link">
         Home page
       </NavLink>
     </div>
-  )
+  );
 }

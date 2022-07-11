@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="app">
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/who" element={<WhoPage />} />
-        <Route path="/what" element={<WhatPage />} />
-        <Route path="/where" element={<WherePage />} />
+        <Route path="/animation-react" element={<HomePage />} />
+        <Route path="/animation-react/who" element={<WhoPage />} />
+        <Route path="/animation-react/what" element={<WhatPage />} />
+        <Route path="/animation-react/where" element={<WherePage />} />
         <Route path="*" element={<p>ERROR</p>} />
       </Routes>
     </div>

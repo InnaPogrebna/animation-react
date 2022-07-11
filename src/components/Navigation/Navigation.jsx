@@ -5,21 +5,19 @@ import "./Navigation.scss";
 export default function Navigation({ screenWidth }) {
   return (
     <>
-      {(screenWidth >= 768)
-        && (
+      {screenWidth >= 768 && (
         <nav className="navbar">
-          <NavLink className="navbar-item  navbar-item-right" to="/what">
+          <NavLink className="navbar-item  navbar-item-right" to="/animation-react/what">
             WhatPage?
           </NavLink>
-          <NavLink className="navbar-item navbar-item-bottom" to="/who">
+          <NavLink className="navbar-item navbar-item-bottom" to="/animation-react/who">
             WhoPage?
           </NavLink>
-          <NavLink className="navbar-item navbar-item-left" to="/where">
+          <NavLink className="navbar-item navbar-item-left" to="/animation-react/where">
             WherePage?
           </NavLink>
         </nav>
-      )
-    }
+      )}
     </>
   );
 }
