@@ -33,7 +33,7 @@ export default function DropDownNavigation() {
                     </NavLink>
                   </div>
                   <div className="dropdown-menu-item" onClick={handleClick}>
-                    <NavLink to="/animation-react/what" className="dropdown-menu-item-link">
+                    <NavLink to="/animation-react/who" className="dropdown-menu-item-link">
                       Who
                     </NavLink>
                   </div>
