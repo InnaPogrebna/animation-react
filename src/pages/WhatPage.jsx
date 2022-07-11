@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../components/Header/Header';
 import ComeBack from '../components/ComeBack/ComeBack';
 import '../pages/HomePage/HomePage.scss';
-import './Page.scss'
 import TransitionRight from '../Transition/TransitionRight';
 
 function WhatPage() {

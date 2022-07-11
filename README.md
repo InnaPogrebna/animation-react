@@ -1,3 +1,3 @@
 ## React animation
- - [DEMO LINK](https://github.com/InnaPogrebna/animation-react.git)
+ - [DEMO LINK](https://innapogrebna.github.io/animation-react/)
  
