@@ -1,0 +1,50 @@
+.navbar {
+  &-item {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    font-size: 16px;
+    font-weight: 700;
+    color: #373737;
+    z-index: 1;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &::before {
+      content: "";
+      display: inline;
+      width: 0%;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      background-color: #fff;
+      transition: width 0.4s ease;
+    }
+
+    &:hover::before {
+      width: 100%;
+    }
+
+    &-right {
+      right: 0;
+      top: 50%;
+      transform: rotate(90deg) translateY(-10px);
+    }
+
+    &-left {
+      left: 0;
+      top: 50%;
+      transform: rotate(-90deg) translateY(-20px);
+    }
+
+    &-bottom {
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

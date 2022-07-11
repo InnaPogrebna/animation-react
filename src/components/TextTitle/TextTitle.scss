@@ -1,0 +1,77 @@
+.contain {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  &__yellowBlock {
+    width: 578px;
+    height: 100%;
+    background-image: url("../../../public/img/ellipse.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    @media (max-width: 768px) {
+      width: 478px;
+    }
+
+    @media (max-width: 440px) {
+      width: 400px;
+    }
+
+    @media (max-width: 378px) {
+      width: 295px;
+    }
+  }
+
+  &-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+
+    &-text {
+      font-family: "Lexend Giga", sans-serif;
+      width: 1000px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 82px;
+      text-transform: uppercase;
+
+      @media (max-width: 1024px) {
+        width: 724px;
+      }
+
+      @media (max-width: 765px) {
+        width: 568px;
+        font-size: 58px;
+      }
+
+      @media (max-width: 440px) {
+        width: 333px;
+        font-size: 34px;
+      }
+
+      @media (max-height: 440px) and (max-width: 880px) and (orientation: landscape) {
+        width: 333px;
+        font-size: 20px;
+      }
+    }
+
+    &-circle {
+      margin-left: 32%;
+    }
+  }
+}

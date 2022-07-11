@@ -1,0 +1,19 @@
+  .slide-in-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background: #ffcb46;
+    transform-origin: right;
+  }
+
+  .slide-out-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background: #ffcb46;
+    transform-origin: left;
+  }
