@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a04f6deb.css",
-    "main.js": "/static/js/main.fc889f46.js",
-    "static/media/showreelshowreelshowreel.svg": "/static/media/showreelshowreelshowreel.d58e40750e3015972fb4.svg",
-    "static/media/tongue.svg": "/static/media/tongue.7eda79650ac2bf5662aa.svg",
-    "index.html": "/index.html",
-    "static/media/ellipse.svg": "/static/media/ellipse.5b264657663d7ef11482.svg",
-    "static/media/Vector.svg": "/static/media/Vector.a1c57122958c352d0c24.svg",
-    "main.a04f6deb.css.map": "/static/css/main.a04f6deb.css.map",
-    "main.fc889f46.js.map": "/static/js/main.fc889f46.js.map"
+    "main.css": "/animation-react/static/css/main.aa3fcd3d.css",
+    "main.js": "/animation-react/static/js/main.fc889f46.js",
+    "static/media/showreelshowreelshowreel.svg": "/animation-react/static/media/showreelshowreelshowreel.d58e40750e3015972fb4.svg",
+    "static/media/tongue.svg": "/animation-react/static/media/tongue.7eda79650ac2bf5662aa.svg",
+    "index.html": "/animation-react/index.html",
+    "static/media/ellipse.svg": "/animation-react/static/media/ellipse.5b264657663d7ef11482.svg",
+    "static/media/Vector.svg": "/animation-react/static/media/Vector.a1c57122958c352d0c24.svg",
+    "main.aa3fcd3d.css.map": "/animation-react/static/css/main.aa3fcd3d.css.map",
+    "main.fc889f46.js.map": "/animation-react/static/js/main.fc889f46.js.map"
   },
   "entrypoints": [
-    "static/css/main.a04f6deb.css",
+    "static/css/main.aa3fcd3d.css",
     "static/js/main.fc889f46.js"
   ]
 }
