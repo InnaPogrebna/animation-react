@@ -1,4 +1,4 @@
-
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import HomePage from "./pages/HomePage/HomePage";
@@ -15,6 +15,7 @@ function App() {
         <Route path="/who" element={<WhoPage />} />
         <Route path="/what" element={<WhatPage />} />
         <Route path="/where" element={<WherePage />} />
+        <Route path="*" element={<p>ERROR</p>} />
       </Routes>
     </div>
   );

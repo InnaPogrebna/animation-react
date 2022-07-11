@@ -1,6 +1,6 @@
 {
   "name": "task-animation",
-  "homepage": "https://innapogrebna.github.io/animation-react/",
+  "homepage": ".",
   "version": "0.1.0",
   "main": "index.js",
   "dependencies": {
